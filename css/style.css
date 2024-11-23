@@ -1,0 +1,268 @@
+/* reset 0 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header css  */
+header {
+    height: 100px; 
+    background-color: rgb(186, 224, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#menu {
+    list-style: none;
+}
+
+#logo {
+    height: 50px;
+    width: 10%;
+    background-color: rgb(247, 239, 172);
+    border: 2px dashed black;
+
+}
+
+nav {
+    height: 50px;
+    width: 60%;
+    background-color: rgb(247, 239, 172);
+    border: 2px dashed black;
+}
+
+#login {
+    height: 50px;
+    width: 10%;
+    background-color: rgb(247, 239, 172);
+    border: 2px dashed black;
+}
+
+
+
+/* jumbotrone css*/
+#jumbo {
+    background-color: rgb(206, 230, 238);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1 {
+    border: 2px dashed black;
+    height: 50px;
+    width: 30%;
+}
+
+#jumbo-title {
+    border: 2px dashed black;
+    height: 100px;
+    width: 60%;
+}
+
+#jumbo-links {
+    border: 2px dashed black;
+    height: 50px;
+    width: 20%;
+}
+
+
+
+/* main css*/
+
+main {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px; */
+}
+
+
+/* main sections */
+
+#section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+
+    background-color: rgb(190, 214, 235);
+    height: 700px;
+    width: 100%;
+}
+
+
+
+#section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+
+    background-color: rgb(211, 224, 235);
+    height: 700px;
+    width: 100%;
+}
+
+#section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+
+    background-color: rgb(190, 214, 235);
+    height: 700px;
+    width: 100%;
+}
+
+#section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+    background-color: rgb(211, 224, 235);
+    height: 700px;
+    width: 100%;
+}
+
+
+
+/* footer sections */
+footer {
+    background-color: rgb(49, 49, 49);
+    height: 600px;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 30px;
+
+    padding: 30px 0px;
+    border-bottom: 1px solid white;
+    width: 70%;
+}
+
+.footer-section-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 30px;
+
+    padding: 30px 0px;
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* proprietà solo layout sezioni main */
+.section-title {
+    border: 2px dashed black;
+    height: 70%;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.section-text {
+    border: 2px dashed black;
+    height: 30%;
+    width: 100%;
+}
+
+.feature-img {
+    border: 2px dashed black;
+    height: 250px;
+    width: 300px;
+}
+
+.inner-container {
+    /* border: 2px dashed black; */
+    width: 250px;
+    height: 300px;
+}
+
+
+.inner-container-4 {
+    /* border: 2px dashed black; */
+    width: 400px;
+    height: 100px;
+}
+
+.feature-img-4 {
+    border: 2px dashed black;
+    height: 250px;
+    width: 500px;
+}
+
+.section-subtitle {
+    border: 2px dashed black;
+    height: 50px;
+    width: 300px;
+}
+
+#section-4-link {
+    border: 2px dashed black;
+    height: 40px;
+    width: 100px;
+}
+
+.footer-list {
+    border: 2px dashed rgb(255, 255, 255);
+    height: 300px;
+    width: 100px;
+}
+
+#social-container {
+    border: 2px dashed rgb(255, 255, 255);
+    height: 150px;
+    width: 150px;
+}
+
+
+/*  */
+#footer-logo {
+    border: 2px dashed rgb(255, 255, 255);
+    height: 50px;
+    width: 150px;
+}
+
+#footer-login {
+    border: 2px dashed rgb(255, 255, 255);
+    height: 50px;
+    width: 150px;
+}
+
