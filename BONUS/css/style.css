@@ -95,17 +95,24 @@ h1 {
 
 #jumbo-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 15px;
-    height: 50px;
-    width: 28%;
+    gap: 50px;
+    height: 70px;
+    width: 100%;
 }
 
     #jumbo-link-1, #jumbo-link-2 {
-        height: 50px;
-        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+
+        height: 40px;
+        border-radius: 20px;
+        text-align: center;
+        padding: 0px 20px;
     }
 
     #jumbo-link-1 {
